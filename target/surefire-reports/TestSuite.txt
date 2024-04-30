@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 31.597 s <<< FAILURE! - in TestSuite
+loginErrorValidations(rahulshettyacademy.tests.ErrorValidationsTest)  Time elapsed: 0.691 s  <<< FAILURE!
+java.lang.AssertionError: expected [Login Successfully] but found [Incorrect email or password.]
+	at rahulshettyacademy.tests.ErrorValidationsTest.loginErrorValidations(ErrorValidationsTest.java:33)
+
+productErrorValidations(rahulshettyacademy.tests.ErrorValidationsTest)  Time elapsed: 0.791 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [productErrorValidations] with [class java.util.HashMap].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+
+orderHistoryTest(rahulshettyacademy.tests.SubmitOrderTest)  Time elapsed: 6.463 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [orderHistoryTest] with [class java.util.HashMap].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+
